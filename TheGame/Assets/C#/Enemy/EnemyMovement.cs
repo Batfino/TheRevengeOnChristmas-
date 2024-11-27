@@ -54,8 +54,9 @@ public class EnemyMovement : MonoBehaviour
     }
     private void OnDrawGizmos()
     {
+   
         Gizmos.DrawWireSphere(pointA.transform.position, 0.5f);
-        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f);
+        Gizmos.DrawWireSphere(pointB.transform.position, 0.5f); // test
         Gizmos.DrawLine(pointA.transform.position, pointB.transform.position);
     }
 }
